@@ -24,7 +24,7 @@ Volume Clip Visualization
 
 Color mapping:
 
-We have selected Yellow - gray - blue palette as the basis the our color mapping. 
+We have selected the Yellow - gray - blue palette as the basis the our color mapping. 
 
 Body (insides): red, data values: ~[0; 250];
 Space around the bear: red, data values ~ [0; 250];
@@ -42,7 +42,7 @@ Eyes: ~ [0.76, 1].
 {(dataprep|}
 1. Data Spacing -> z-axis x 6.7 times
 2. Subset extraction:
-To remove the surface the bear is leaning on with extract the susbset within the y-axis: (0 — 511) -> (230 — 350)
+To remove the surface the bear is leaning (lying) on and the volume right before the sign, we extract the susbset within the y-axis: (0 — 511) -> (230 — 350)
 
 {|dataprep)}
 
