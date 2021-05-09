@@ -24,18 +24,18 @@ Volume Clip Visualization
 
 Color mapping:
 
-Yellow - gray - blue palette
+We have selected Yellow - gray - blue palette as the basis the our color mapping. 
 
-Seams: 
-Body:
-Eyes:
-Rest of Volume:
+Body (insides): red, data values: ~[0; 250];
+Space around the bear: red, data values ~ [0; 250];
+Seams (contours): yellow, data values: ~[250; 700];
+Eyes: black & blue, data values: ~[700; 1300].
 
 Opacity mapping:
 
-Seams, letter: 0.65 - 1
-Bear insides, volume around the bear: ~ 0.04
-Eyes: ~ 1
+Bear insides, space around the bear: ~ [0; 0.37];
+Seams, letters: ~[0.37; 0.76];
+Eyes: ~ [0.76, 1].
 
 {|vismapping)}
 
@@ -48,6 +48,6 @@ To remove the surface the bear is leaning on with extract the susbset within the
 
 {(limitations|}
 
-Unfortunately, even though the text is rather undestandable (presumably, "MERRY CHRISTMAS HAPPY NEW YEAR POLAR BEAR"), we cannot distinguish some letters (e.g., letter "R") and have to deduce the word through its context. However, we have not found other ways (e.g., switching opacity of the bear's insides to lower values) to apmplify resolution of certain letter without sacrifising the resolution of others. In addition, the color mappings used for enhancing the perception of the text may deviate from its user's cognitive bias and they may find the visualization daunting. 
+Unfortunately, even though the text is rather undestandable (presumably, "MERRY CHRISTMAS HAPPY NEW YEAR POLAR BEAR"), we cannot distinguish some letters (e.g., letter "R") and have to deduce the word through its context. However, we have not found other ways (e.g., switching opacity of the bear's insides to lower values) to amplify resolution of certain letters without sacrifising the resolution of others. In addition, the luminance of the seam behind the sign on the bear's belly covers some letters of the sign, but is very difficult to remove. Finally, the color mappings used for enhancing the perception of the text may deviate from its user's cognitive bias and they may find the visualization daunting. 
 
 {|limitations)}
