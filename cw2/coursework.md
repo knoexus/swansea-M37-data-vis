@@ -13,7 +13,7 @@ Head MRI Nasal
 
 {(aim|}
 
-
+With the aid of this visualization diagnosts and oncologists can potentially detect, describe and evaluate geometric parameters of all possible kinds of tumor or hematomas in the brain of a patient, as well as chemical ones. It is important for the selection of a therapy, especially when speaking about highly precise methods (e.g., gamma knife), where determining the configuration is vital.
 
 {|aim)}
 
