@@ -9,33 +9,56 @@ narrative-schemas:
 
 Author: Anton Dementyev (2023638)
 
-Before using these sets of documents, make sure you have everything installed
-correctly. Installation instructions are here:
-<https://github.com/gicentre/litvis/blob/main/documents/tutorials/introduction/installingLitvis.md>.
-
-**In this file you can put the visualization based on the sample dataset**
+Head MRI Nasal 
 
 {(aim|}
+
+
 
 {|aim)}
 
 {(vistype|}
 
+Feature edges + direct volume
+
 {|vistype)}
 
-image/video here
+![alt text](./images/1_1_1.png)<br/>
+![alt text](./images/1_1_2.png)<br/>
+![alt text](./images/1_1_3.png)<br/>
 
 {(vismapping|}
 
-**Note**: this should be a list of some type (here I'm using a dictionary list)
+Color mapping:
+
+We have selected the default cool-to-ward palette as the basis the our color mapping. Data values = [0; 255].
+
+Cerebral cortex, spikes (bottom): blue, data values: ~[0; 50];
+Cerebral cortex (gaps), spikes (mid): white, data values: ~[50; 150];
+Corpus, eyes, spikes (top): red, data values ~ [150; 255];
+
+Opacity mapping:
+
+For the volume (head):
+Cerebral cortex: ~ [0; 0.03];
+Corpus, eyes: ~[0.03; 0.25];
 
 {|vismapping)}
 
 {(dataprep|}
 
+1. Subset extraction:
+Cutting to the nasal area:
+z-axis (0 - 41) -> (6 - 41)
+
+2. Warping by scalar
+Scale factor - 1
+
 {|dataprep)}
 
 {(limitations|}
+
+First, the magnitude of the volumetric spikes is very relative. In essense, it is amplfied in the selected way purely to make the comparison between them illustrative enough, but does not represent the actual depth. Also, we need to use an extra component (head) to make to clear where the spikes are.
 
 {|limitations)}
 
