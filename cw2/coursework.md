@@ -8,6 +8,7 @@ narrative-schemas:
 ---
 
 Author: Anton Dementyev (2023638)
+CSCM37 Coursework 2: Volume Visualization
 
 # Head MRI Localized 
 
