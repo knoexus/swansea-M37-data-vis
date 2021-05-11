@@ -2,7 +2,7 @@
 follows: coursework
 ---
 
-I'm in love with the shape of you (buttons)
+# I'm in Love with the Shape of You (Buttons)
 
 {(aim|}
 
@@ -22,15 +22,24 @@ Isosurface
 
 {(vismapping|}
 
-We have selected the gray and red palette as the basis the our color mapping. Further we only mention the mappings for the buttons, as other elements do not get displayed after applying isosurface rendering. 
+We have selected the Gray and red palette as the basis the our color mapping. Further we only mention the mappings for the buttons, as other elements do not get displayed after applying isosurface rendering. 
 
 Color mapping:
 
-Buttons: grey, data values: ~[0; 750];
+<ul>
+    <li>
+        Buttons: gray, data values: ~ [0; 750].
+    </li>
+</ul>
+
 
 Opacity mapping:
 
-Buttons: ~ [0.6; 1];
+<ul>
+    <li>
+        Buttons: ~ [0.6; 1].
+    </li>
+</ul>
 
 {|vismapping)}
 

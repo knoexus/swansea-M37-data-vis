@@ -2,11 +2,11 @@
 follows: coursework
 ---
 
-Swimbladder Gives You Wings
+# Swim Bladder Gives You Wings
 
 {(aim|}
 
-We can learn what the structure, shape and possibly the volume of the fish's swimbladder is. All three can be useful for comparing various types of fish in ichthyological contexts.
+We can learn what the structure, shape and possibly the volume of the fish's swim bladder is. All three can be useful for comparing various types of fish in ichthyological contexts.
 
 {|aim)}
 
@@ -21,15 +21,29 @@ Slice
 
 {(vismapping|}
 
-We have selected the default x-ray palette as the basis the our color mapping. 
+We have selected the X-ray palette as the basis the our color mapping. 
 
-Body — {swimbladder, other gaps}: white / grey, data values: ~[0; 2501];
-Swimbladder: black, data values ~ [2501; 2871];
+Color mapping:
+
+<ul>
+    <li>
+        Body — {swim bladder, other gaps}: white / gray, data values: ~[0; 2501];
+    </li>
+    <li>
+        Swim bladder: black, data values ~ [2501; 2871].
+    </li>
+</ul>
 
 Opacity mapping:
 
-Body — {swimbladder, other gaps}: ~[0.77; 0.93];
-Swimbladder: ~[0.93; 1];
+<ul>
+    <li>
+        Body — {swim bladder, other gaps}: ~[0.77; 0.93];
+    </li>
+    <li>
+        Swim bladder: ~[0.93; 1].
+    </li>
+</ul>
 
 {|vismapping)}
 
@@ -71,6 +85,6 @@ Slice extraction:
 
 {(limitations|}
 
-We cannot really see at which stage of inflation the swimbladder is, so we need to know the state of the fish prior to analysing the swimbladder's aforementioned properties. Also, as this is a slice, perhaps undestanding how smooth / homogeneous the surface of the swimbladder is, is a bit problematic.
+We cannot really see at which stage of inflation the swim bladder is, so we need to know the state of the fish prior to analysing the swim bladder's aforementioned properties. Also, as this is a slice, perhaps undestanding how smooth / homogeneous the surface of the swim bladder is, is a bit problematic.
 
 {|limitations)}

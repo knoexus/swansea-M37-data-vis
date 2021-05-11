@@ -9,7 +9,7 @@ narrative-schemas:
 
 Author: Anton Dementyev (2023638)
 
-Head MRI Nasal 
+# Head MRI Localized 
 
 {(aim|}
 
@@ -31,17 +31,32 @@ Feature edges + direct volume
 
 Color mapping:
 
-We have selected the default cool-to-ward palette as the basis the our color mapping. Data values = [0; 255].
+We have selected the default cool-to-warm palette as the basis the our color mapping. Data values = [0; 255].
 
-Cerebral cortex, spikes (bottom): blue, data values: ~[0; 50];
-Cerebral cortex (gaps), spikes (mid): white, data values: ~[50; 150];
-Corpus, eyes, spikes (top): red, data values ~ [150; 255];
+<ul>
+  <li>
+    Cerebral cortex, spikes (bottom): blue, data values: ~[0; 50];
+  </li>
+  <li>
+    Cerebral cortex (gaps), spikes (mid): white, data values: ~[50; 150];
+  </li>
+  <li>
+    Corpus, eyes, spikes (top): red, data values ~ [150; 255];
+  </li>
+</ul>
+
 
 Opacity mapping:
 
 For the volume (head):
-Cerebral cortex: ~ [0; 0.03];
-Corpus, eyes: ~[0.03; 0.25];
+<ul>
+  <li>
+    Cerebral cortex: ~ [0; 0.03];
+  </li>
+  <li>
+    Corpus, eyes: ~ [0.03; 0.25];
+  </li>
+</ul>
 
 {|vismapping)}
 
@@ -58,7 +73,7 @@ Scale factor - 1
 
 {(limitations|}
 
-First, the magnitude of the volumetric spikes is very relative. In essense, it is amplfied in the selected way purely to make the comparison between them illustrative enough, but does not represent the actual depth. Also, we need to use an extra component (head) to make to clear where the spikes are.
+First, the magnitude of the volumetric spikes is very relative. In essense, it is amplfied in the selected way purely to make the comparison between them illustrative enough, but does not represent the actual depth. Also, we need to use an extra component (head) to make it clear where the spikes are.
 
 {|limitations)}
 

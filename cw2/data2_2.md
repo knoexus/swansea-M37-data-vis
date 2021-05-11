@@ -2,11 +2,11 @@
 follows: coursework
 ---
 
-Fish Skeleton
+# Fish Skeleton
 
 {(aim|}
 
-We can understand the bones' structure of a fish usign this visualization. However, its lower-level purpose is displaying the spinal region of a fish, with an emphasis on how it can flex during movement. The latter can be useful, for instance, when studying factors impacting the speed of certain fish. 
+We can understand the bones' structure of a fish usign this visualization. However, its lower-level purpose is displaying the spinal region of the fish, with an emphasis on how it can flex during movement. The latter can be useful, for instance, when studying factors impacting the speed of certain fish. 
 
 {|aim)}
 
@@ -27,8 +27,14 @@ Gaussian Points (Isosurface)
 
 Not part of the transfer function (it was not used for this visualization):
 
-Skeleton (point) opacity -> 0.37
-Sketelon point radius -> 1.49
+<ul>
+    <li>
+        Skeleton (point) opacity -> 0.3;
+    </li>
+    <li>
+        Sketelon point radius -> 1.49.
+    </li>
+</ul>
 
 {|vismapping)}
 
@@ -40,6 +46,6 @@ Contour extraction.
 
 {(limitations|}
 
-A minor limitation is that some parts of the head's bone structure are not fully distinguishable. Hence, as mentioned before, this visualization is more applicable for examining the spine of the fish. At the same time, the main advantage of gaussian points is displaying connectity between voxels. Due to this notion, it is really effective when turned sideways, but is not so effective from above (e.g., with respect to making out each vertebrae from a distance).
+A minor limitation is that some parts of the head's bone structure are not fully distinguishable. Hence, as mentioned before, this visualization is more applicable for examining the spine of the fish. At the same time, the main advantage of gaussian points is displaying the connectity between voxels. Due to this notion, it is really effective when the fish is turned sideways, but is not so effective from above (e.g., with respect to making out each vertebra from a distance, like in the 1st image).
 
 {|limitations)}
