@@ -46,6 +46,6 @@ Contour extraction.
 
 {(limitations|}
 
-A minor limitation is that some parts of the head's bone structure are not fully distinguishable. Hence, as mentioned before, this visualization is more applicable for examining the spine of the fish. At the same time, the main advantage of gaussian points is displaying the connectity between voxels. Due to this notion, it is really effective when the fish is turned sideways, but is not so effective from above (e.g., with respect to making out each vertebra from a distance, like in the 1st image).
+A minor limitation is that some parts of the head's bone structure are not fully distinguishable. Hence, as mentioned before, this visualization is more applicable for examining the spine of the fish. At the same time, the main advantage of gaussian points is displaying the connectity between voxels. Due to this notion, it is really effective when the fish is turned sideways, but is not so effective from above (e.g., with respect to making out each vertebra from a distance, like in the 1st image). For our outlined purpose, we do not think that the visualization has a lot of room for improvement. However, if we used an isosurface only, the visibility of the details of the smaller bones could be enhanced using ray tracing, but in fact gaussian points still provide a lot more information in that sense.
 
 {|limitations)}

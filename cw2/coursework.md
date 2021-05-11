@@ -30,9 +30,9 @@ Feature edges + direct volume
 
 {(vismapping|}
 
-Color mapping:
+Color mappings:
 
-We have selected the default cool-to-warm palette as the basis the our color mapping. Data values = [0; 255].
+We have selected the default cool-to-warm palette as the basis the our color mappings. Data values = [0; 255].
 
 <ul>
   <li>
@@ -47,7 +47,7 @@ We have selected the default cool-to-warm palette as the basis the our color map
 </ul>
 
 
-Opacity mapping:
+Opacity mappings:
 
 For the volume (head):
 <ul>
@@ -74,7 +74,7 @@ Scale factor - 1
 
 {(limitations|}
 
-First, the magnitude of the volumetric spikes is very relative. In essense, it is amplfied in the selected way purely to make the comparison between them illustrative enough, but does not represent the actual depth. Also, we need to use an extra component (head) to make it clear where the spikes are.
+First, the magnitude of the volumetric spikes is very relative. In essense, it is amplfied in the selected way purely to make the comparison between them illustrative enough, but does not represent the actual depth. Also, we need to use an extra component (head) to make it clear where the spikes are. However, a possible improvement would be making a toggle for the head, as it can actually hinder the perception of the depth of the hills (spikes), especially when looked at from below (image 2). Alternatively, we can use an outline of the brain as a reference point, but this is quite debatable.
 
 {|limitations)}
 

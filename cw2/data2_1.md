@@ -85,6 +85,6 @@ Slice extraction:
 
 {(limitations|}
 
-We cannot really see at which stage of inflation the swim bladder is, so we need to know the state of the fish prior to analysing the swim bladder's aforementioned properties. Also, as this is a slice, perhaps undestanding how smooth / homogeneous the surface of the swim bladder is, is a bit problematic.
+We cannot really see at which stage of inflation the swim bladder is, so we need to know the state of the fish prior to analysing the swim bladder's aforementioned properties. Also, as this is a slice, perhaps undestanding how smooth / homogeneous the surface of the swim bladder is, is a bit problematic. As an improvement, perhaps, we can suggest taking a lot more shapshots while rotating x and y axes within their plane — this will help get a grasp of the geometry of the swim bladder more precisely, as with our visualization we rely on the assumption the center always represents the biggest radius possible, which is obviously not true. 
 
 {|limitations)}

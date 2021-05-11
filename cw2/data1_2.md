@@ -55,6 +55,6 @@ Also, volume rendering blend mode is set to isosurfacing with shades enabled.
 
 {(limitations|}
 
-Although we can get a sense of the overall shape of the buttons and some pecularities of each type of button, we cannot take away much upon a very close inspection of them as the isosurface becomes disintegrated. Also, it might be a bit difficult to determine the orientation of the visualization right away, since the buttons are fairly similar at first glance. Still, it becomes understandable quite quickly. Finally, a minor limitation is that it is a bit computationally expensive to run, even without the axes displayed. 
+Although we can get a sense of the overall shape of the buttons and some pecularities of each type of button, we cannot take away much upon a very close inspection of them as the isosurface becomes disintegrated. Also, it might be a bit difficult to determine the orientation of the visualization right away, since the buttons are fairly similar at first glance. Hence, we can add an outline of the bear's head to improve on this. Still, it becomes understandable quite quickly. Finally, a minor limitation is that it is a bit computationally expensive to run, even without the axes displayed. 
 
 {|limitations)}
